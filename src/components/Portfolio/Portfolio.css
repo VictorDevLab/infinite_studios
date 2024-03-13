@@ -1,0 +1,42 @@
+.portfolio {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio_container {
+    max-width: 1124px;
+}
+
+.portfolio_container h2 {
+    font-size: 1.8rem;
+}
+
+.portfolio_container .gallery {
+    /* display: flex;
+    gap: 20px; */
+    margin-top: 40px;
+    columns: 15rem 3;
+}
+
+.portfolio_container img {
+    max-width: 100%;
+    /* height: 300px; */
+    object-fit: contain;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.portfolio_container img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 600px) {
+    .portfolio_container .gallery {
+        columns: 10rem 2;
+    }
+
+    .portfolio_container img {
+        max-width: 100%;
+        height: 300px;
+    }
+}

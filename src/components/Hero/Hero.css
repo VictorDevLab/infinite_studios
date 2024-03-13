@@ -59,7 +59,10 @@
     .content div {
         margin-top: 100px;
         width: 90%;
+    }
 
+    .content {
+        height: 500px;
     }
 
 }

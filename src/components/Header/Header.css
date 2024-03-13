@@ -2,10 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    width: 100%;
     /* Example background color */
     height: 80px;
     padding: 2px 30px;
+    /* position: fixed; */
+    background-color: #F5FEFD
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+nav svg {
+    display: none;
 }
 
 .logo {
@@ -19,6 +30,10 @@
 
 .logo img {
     width: 200px;
+}
+
+nav svg {
+    width: 30px;
 }
 
 .nav_links {
@@ -35,5 +50,14 @@
 @media (max-width: 600px) {
     .nav_links {
         display: none;
+    }
+
+    nav svg {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .header {
+        padding: 2px 10px;
     }
 }

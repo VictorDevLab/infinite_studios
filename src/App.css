@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;

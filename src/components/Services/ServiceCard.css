@@ -1,0 +1,46 @@
+.service-card {
+    border: 1px solid #ccc;
+
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 350px; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+}
+
+.service-card-number {
+    background-color: #000000;
+    color: #fff;
+    width: 15%;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.service-card-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-card h2,
+.service-card p {
+    padding: 10px 20px;
+    margin-top: 20px;
+
+}
+
+.service-card h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.service-card p {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
