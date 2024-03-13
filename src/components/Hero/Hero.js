@@ -7,7 +7,7 @@ const Hero = () => {
         <div>
           <h2>Welcome to Infinite Moments Studios</h2>
           <p>
-            where every moment is a masterpiece. Step into a world of timeless
+            Where every moment is a masterpiece. Step into a world of timeless
             elegance and captivating beauty, where our lenses capture the
             essence of life's most precious moments.{" "}
           </p>

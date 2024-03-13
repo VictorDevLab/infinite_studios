@@ -4,7 +4,7 @@
     align-items: center;
 
     /* Example background color */
-    height: 60px;
+    height: 80px;
     padding: 2px 30px;
 }
 
@@ -15,7 +15,6 @@
 
 .logo svg {
     width: 35px;
-
 }
 
 .logo img {
@@ -31,4 +30,10 @@
     margin-right: 20px;
     font-weight: 500;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .nav_links {
+        display: none;
+    }
 }
