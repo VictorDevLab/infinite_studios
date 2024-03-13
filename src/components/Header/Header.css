@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Example background color */
+    height: 60px;
+    padding: 2px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo svg {
+    width: 35px;
+
+}
+
+.logo img {
+    width: 200px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
