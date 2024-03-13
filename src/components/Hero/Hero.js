@@ -11,7 +11,9 @@ const Hero = () => {
             elegance and captivating beauty, where our lenses capture the
             essence of life's most precious moments.{" "}
           </p>
-          <button>View Gallery</button>
+          <button>
+            <a href="#portfolio">View Gallery</a>
+          </button>
         </div>
       </div>
     </div>

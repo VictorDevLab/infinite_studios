@@ -5,15 +5,27 @@
 
 .portfolio_container {
     max-width: 1124px;
+    padding: 20px;
 }
 
 .portfolio_container h2 {
     font-size: 1.8rem;
+    position: relative;
+}
+
+.portfolio_container h2::after {
+    content: '';
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    transform: translateY(-50%);
+    width: 7%;
+    height: 2px;
+    background-color: rgb(65, 59, 59);
 }
 
 .portfolio_container .gallery {
-    /* display: flex;
-    gap: 20px; */
+
     margin-top: 40px;
     columns: 15rem 3;
 }
@@ -24,11 +36,44 @@
     object-fit: contain;
     transition: 0.3s linear;
     cursor: pointer;
+
 }
 
 .portfolio_container img:hover {
-    transform: scale(1.02);
+    transform: scale(1.1);
 }
+
+.button_container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-button {
+
+    background-color: #000000;
+    /* Button background color */
+    border: none;
+
+    padding: 20px 40px;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.3s linear;
+}
+
+.custom-button:hover {
+    background-color: #1b1c1e;
+    /* Button background color on hover */
+}
+
+.custom-button:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    /* Underline the link on hover */
+}
+
 
 @media (max-width: 600px) {
     .portfolio_container .gallery {
@@ -38,5 +83,15 @@
     .portfolio_container img {
         max-width: 100%;
         height: 300px;
+    }
+
+    .portfolio_container h2::after {
+
+        top: 60%;
+        left: 39%;
+        transform: translateY(-50%);
+        width: 13%;
+        height: 2px;
+        background-color: rgb(8, 8, 8);
     }
 }

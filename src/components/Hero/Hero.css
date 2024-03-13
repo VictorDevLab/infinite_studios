@@ -41,6 +41,11 @@
     /* margin-top: 20px; */
 }
 
+.content button a {
+    text-decoration: none;
+    color: black;
+}
+
 .content button:hover {
     background-color: #eee5af;
     transform: scale(1.1);
