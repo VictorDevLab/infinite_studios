@@ -10,10 +10,6 @@
     background-color: #ffffff
 }
 
-.header a {
-    text-decoration: none;
-    color: black;
-}
 
 nav svg {
     display: none;
@@ -45,6 +41,12 @@ nav svg {
     margin-right: 20px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: black;
+
 }
 
 @media (max-width: 600px) {
