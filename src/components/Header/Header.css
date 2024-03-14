@@ -11,17 +11,21 @@
 }
 
 
-nav svg {
-    display: none;
-}
+
 
 .logo {
     display: flex;
     align-items: center;
 }
 
-.logo svg {
-    width: 35px;
+.nav_toggler {
+    display: none;
+}
+
+.nav_toggler .icon {
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
 }
 
 .logo img {
@@ -34,11 +38,15 @@ nav svg {
 
 .nav_links {
     list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
 }
 
 .nav_links li {
-    display: inline-block;
-    margin-right: 20px;
+    /* display: inline-block;
+    margin-right: 20px; */
     font-weight: 500;
     cursor: pointer;
 }
@@ -49,17 +57,40 @@ nav svg {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
     .nav_links {
-        display: none;
+        position: fixed;
+        /* top: 7vh; */
+        right: 0;
+        height: 50vh;
+        width: 50vw;
+        background: rgb(5, 5, 5);
+        opacity: 0.93;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
     }
 
-    nav svg {
+    .nav_toggler {
         display: block;
         margin-right: 10px;
+    }
+
+    .nav_links li {
+        border-bottom: 2px solid white;
+
+    }
+
+    .nav_links li a {
+        color: #ffffff;
     }
 
     .header {
         padding: 2px 10px;
     }
+}
+
+/* Nav actice class */
+.nav_active {
+    transform: translateX(0);
 }

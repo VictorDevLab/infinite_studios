@@ -2,7 +2,7 @@ import "./Testimonials.css";
 
 const Testimonials = () => {
   return (
-    <div className="testimonials">
+    <div id="testimonials" className="testimonials">
       <div className="intro">
         <h4>testimonials</h4>
         <h2>Glowing Testimonials from Our Cherished Clients</h2>

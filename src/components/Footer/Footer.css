@@ -1,0 +1,77 @@
+.footer {
+    background-color: #080808;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.foo {
+    margin: 0 auto;
+
+    max-width: 1224px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-left {
+    margin-bottom: 20px;
+}
+
+.footer-left img {
+    max-width: 100%;
+    width: 200px;
+
+    /* Adjust the max-width of the logo */
+}
+
+.social-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 7px;
+    display: flex;
+}
+
+.icon {
+    color: #fff;
+}
+
+.social-icons li {
+    margin-left: 10px;
+    /* Adjust spacing between icons */
+}
+
+.social-icons li:first-child {
+    margin-left: 0;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    /* Add spacing between logo and copyright text */
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .foo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left {
+        margin-bottom: 10px;
+        /* Add spacing between logo and social icons on small screens */
+    }
+
+    .social-icons {
+        margin-top: 2px;
+        /* Add spacing between logo and social icons on small screens */
+    }
+}

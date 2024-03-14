@@ -1,6 +1,36 @@
+import { useState, useEffect } from "react";
 import "./Header.css";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross2 } from "react-icons/rx";
 
 const Header = () => {
+  const [active, setIsActive] = useState("nav_links");
+
+  const navToggle = () => {
+    if (active === "nav_links") {
+      setIsActive("nav_links nav_active");
+    } else setIsActive("nav_links");
+    // Icon Toggler
+    // if (icon === "nav__toggler") {
+    //   setIcon("nav__toggler toggle");
+    // } else setIcon("nav__toggler");
+  };
+  useEffect(() => {
+    const handleScroll = () => {
+      // Check if the menu is active (you need to define your state for menu active status)
+      // If menu is active, close it
+      if (active === "nav_links nav_active") {
+        setIsActive("nav_links");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [active]); // Run this effect only once after component mounts
+
   return (
     <>
       <div className="header">
@@ -8,22 +38,15 @@ const Header = () => {
           <img src={"assets/logo22.png"} alt="logo" />
         </div>
         <nav>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
+          <div className="nav_toggler" onClick={navToggle}>
+            {active === "nav_links" ? (
+              <GiHamburgerMenu className="icon" />
+            ) : (
+              <RxCross2 className="icon" />
+            )}
+          </div>
 
-          <ul className="nav_links">
+          <ul className={active}>
             <li>
               {" "}
               <a href="#about">About</a>
