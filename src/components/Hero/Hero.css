@@ -7,7 +7,7 @@
 .content {
     max-width: 1624px;
     height: 70vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/assets/backgr.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/assets/background1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
