@@ -12,10 +12,10 @@ const Services = () => {
         <div className="service_cards">
           <ServiceCard
             number={1}
-            image={`https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/278184790_115274887798472_5446700313285230370_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEptMdD9jVqoWc7EpdPuXAQ9SinbVHPmSX1KKdtUc-ZJYdmuB8fH15ZpXd5igjE4wvPesNNcfjTdCAwyhw7whbE&_nc_ohc=_t_OcqRWYw4AX_MDML7&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfAtDrmttER5rzjFTv0_qqhVlt4WOtw_xVDrFjwyiVaIRQ&oe=65F5C14A`}
-            name={"LandScape"}
+            image={`https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/299996027_128534993243856_7217636750181243486_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFplwy_xPXXEMd5u8ny8zEy0G_kwXQpNJDQb-TBdCk0kEiAtlyvZ6ETJX1WcVjybcDxZbAH0xNHtJj3yITKwy-k&_nc_ohc=AgwE1LGEmwgAX8zxhwN&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfDatazERXYr-ho60Mb0pYqxhL6psHqLJKoFT7ZbDOuuDA&oe=65FB29C4`}
+            name={"Graduation"}
             description={
-              "We Create the Art of Observation Lorem ipsum dolo Create the Art of Observation Lorem ipsum dolo Create the Art of Observation Lorem ipsum dolor"
+              "Commemorate your achievements with a graduation photo shoot! Our skilled photographers capture the essence of this momentous occasion."
             }
           />
           <ServiceCard
@@ -23,15 +23,15 @@ const Services = () => {
             image={`https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/349090905_1288901725087135_1698026021765735877_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHWqEgE6K4e24G_peBt75eXqQqPxzyiT0ypCo_HPKJPTIOHHagmKtvjbBRgTBVdgdVB98q4zFKDDXYqlnLbva9K&_nc_ohc=8LMVXTtscg8AX9s0JIn&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfBd5M3IMlNMO9cKaXgtg0Q_DfLHBg3Iref6ZHmy533mtw&oe=65F6B8A3`}
             name={"Newborn Shoot"}
             description={
-              "We Create the Art of Observation Lorem ipsum dolo Create the Art of Observation Lorem ipsum dolo Create the Art of Observation Lorem ipsum dolor"
+              "Capture the tender moments of your little one's earliest days with our newborn photo shoots."
             }
           />
           <ServiceCard
             number={3}
             image={`https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/342713432_200042136153355_7033285264223216734_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG2CoZNlpi5RPZXvTJtm0wK5zQt5cV-R9jnNC3lxX5H2I60M4U4xgYI2a56i1StjE8LBV0qwHDz8_gWpxrutGtc&_nc_ohc=XzxHnXw2mtcAX9DDVm9&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfDXwkk0DskjinY9v1fVozWSYRXI0ovI4E15yMKKwMsCxQ&oe=65F6D10E`}
-            name={"Graduation"}
+            name={" Birthday shoot"}
             description={
-              "We Create the Art of Observation Lorem ipsum dolo Create the Art of Observation Lorem ipsum dolo Create the Art of Observation Lorem ipsum dolor"
+              "Mark your little one's milestone with a birthday photo shoot! Our experienced photographers specialize in capturing the joy and excitement of this special day."
             }
           />
           {/* <ServiceCard
