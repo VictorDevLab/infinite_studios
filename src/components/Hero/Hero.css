@@ -56,6 +56,10 @@
         margin-top: 20px;
         width: 100%;
     }
+
+    .hero {
+        margin-top: 0px;
+    }
 }
 
 @media (max-width: 361px) {
@@ -66,10 +70,13 @@
 
     .content p {
         margin-bottom: 25px;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 1.7rem;
     }
 
+    .content button {
+        margin-bottom: 10px;
+    }
 
 }
 
@@ -80,7 +87,7 @@
     }
 
     .content {
-        height: 500px;
+        height: 550px;
     }
 
 }

@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="portfolio">
       <div className="portfolio_container">
-        <h2>Portfolio</h2>
+        <h2>Gallery</h2>
         <div className="gallery">
           <img
             src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/399850519_327528216677865_8064431200670904212_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFR7hn9_ljA3RX5rcfiJMHfyfrg4zL1mm_J-uDjMvWabzjsOxNmT9QtY9IesE7o-cXVhV72O3kiV1igw9jYkp6R&_nc_ohc=Vp6VoFS6UMwAX_T5fzr&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfAlX0YTnmfiivddeM9ajx3b6X82WbVj1dMo2RNjccE-MQ&oe=65F66F74"

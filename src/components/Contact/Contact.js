@@ -69,11 +69,13 @@ const Contact = () => {
           <div className="contact-info">
             <div className="phone">
               <h2>Call</h2>
-              <a href="tel:+5555555555">0712345678</a>
+              <a href="tel:+254706861038">0712345678</a>
             </div>
             <div className="email">
               <h2>Email</h2>
-              <a href="mailto:info@webcorpco.com">developer@gmail.com</a>
+              <a href="mailto:infinitemomentsstudios@gmail.com">
+                infinitemomentsstudios@gmail.com
+              </a>
             </div>
             <div className="location">
               <h2>Visit</h2>

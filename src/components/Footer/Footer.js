@@ -13,17 +13,17 @@ const Footer = () => {
         <div className="footer-right">
           <ul className="social-icons">
             <li>
-              <a href="#">
+              <a href="https://web.facebook.com/profile.php?id=100082620677297">
                 <FaFacebookF className="icon" />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://wa.me/+254706861038">
                 <IoLogoWhatsapp className="icon" />
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://www.instagram.com/infinite_studios__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                 <FaInstagram className="icon" />
               </a>
             </li>

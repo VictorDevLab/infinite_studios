@@ -27,7 +27,7 @@
 .portfolio_container .gallery {
 
     margin-top: 40px;
-    columns: 15rem 3;
+    columns: 15rem 4;
 }
 
 .portfolio_container img {
@@ -75,6 +75,7 @@
 }
 
 
+
 @media (max-width: 600px) {
     .portfolio_container .gallery {
         columns: 10rem 2;
@@ -94,4 +95,12 @@
         height: 2px;
         background-color: rgb(8, 8, 8);
     }
+}
+
+@media (max-width: 391px) {
+    .portfolio_container img {
+        max-width: 100%;
+        height: 200px;
+    }
+
 }
