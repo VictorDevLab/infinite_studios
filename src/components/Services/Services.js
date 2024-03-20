@@ -23,7 +23,7 @@ const Services = () => {
             image="assets/newborn.jpeg"
             name={" Newborn shoot"}
             description={
-              "Capture the tender moments of your little one's earliest days with our newborn photo shoots."
+              "Capture the tender moments of your little one's earliest days with our newborn photo shoots.Our skilled photographers capture the essence of this speecial moment."
             }
           />
           <ServiceCard
@@ -34,6 +34,7 @@ const Services = () => {
               "Mark your little one's milestone with a birthday photo shoot! Our experienced photographers specialize in capturing the joy and excitement of this special day."
             }
           />
+
           {/* <ServiceCard
             number={4}
             image={`https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/336379067_713829737199875_5687469872451913077_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEU9wzNWhEzGJNVL2UPHS-dTeGGLwB9JPxN4YYvAH0k_B-YUy1CyBiPjkJzkkJg_i5DJ7fzoQzPJ4xw-TvsG0BG&_nc_ohc=f2C5H_8Y9L0AX9UCMVR&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfAFN18rMQI3LnPpTYgDCCS-wlI1f_i0wj6WwHxUeQ6YAA&oe=65F7171B`}
