@@ -14,10 +14,7 @@ const Testimonials = () => {
           <div class="div1 eachdiv">
             <div class="userdetails">
               <div class="imgbox">
-                <img
-                  src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/428638262_382241164539903_9201961438835424553_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeExIXRFcGujl8DRn7fG_mVuHm4jN-E5nKIebiM34Tmcou4IOYWE9X4lsk5NRWw3vLkZwVWNBsUJxtj8NG8KFjY4&_nc_ohc=IotuYx6KwMUAX9a0t0s&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfCl9PKhsYey7WaDvT8TmqndckuygdbnAHGZPfTPuyc11Q&oe=65F704EA"
-                  alt=""
-                />
+                <img src="assets/mercy.jpeg" alt="" />
               </div>
               <div class="detbox">
                 <p class="name">Mercy Clifford</p>
@@ -40,10 +37,7 @@ const Testimonials = () => {
           <div class="div2 eachdiv">
             <div class="userdetails">
               <div class="imgbox">
-                <img
-                  src="https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/428634118_385124884251531_297187354305214835_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFlvv984LkN_nrORle5iR99sVwCljEyPDuxXAKWMTI8O4BgazqoNtFyjqKCgDJCYJUiBrmUelLf9ZyKZeWkN4xe&_nc_ohc=i4c6LvaLZz0AX8WxxP2&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfDQ28WXU1cJi_UK2T9_0MlrpyGKh_cPUhCEd-Kf_seXLQ&oe=65F6EC98"
-                  alt=""
-                />
+                <img src="assets/tracy.jpeg" alt="" />
               </div>
               <div class="detbox">
                 <p class="name">Tracy Wambui</p>
@@ -62,10 +56,7 @@ const Testimonials = () => {
           <div class="div3 eachdiv">
             <div class="userdetails">
               <div class="imgbox">
-                <img
-                  src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/405290747_336337285796958_3954996264453859654_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG4FD7Jc3WTYh0nTzP3LFJ3MSfOl1W7PDwxJ86XVbs8PP_RHlhN5A55AxlWM9M9vULLJWU6cOspAm65CfOe0-iI&_nc_ohc=GDmHQ6a_t84AX8K0Jlz&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfC46lAhC2Jtfc2mv-Fv9DE3NZ4SbXz2-bRt4B5_ni3sgg&oe=65F7AD94"
-                  alt=""
-                />
+                <img src="assets/kira.jpeg" alt="" />
               </div>
               <div class="detbox">
                 <p class="name dark">Kira Whittle</p>
@@ -87,10 +78,7 @@ const Testimonials = () => {
           <div class="div4 eachdiv">
             <div class="userdetails">
               <div class="imgbox">
-                <img
-                  src="https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/379623675_297213873042633_6571994341685585957_n.jpg?stp=c0.17.206.206a_dst-jpg_p206x206&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFacgT9n4DYTCBZnlw2CcyLJJ5zXgnPsr0knnNeCc-yvRvgAlObiN3TD2a6nneSz6NtKdmtQPqRcVERxhze0ClF&_nc_ohc=rJGxt4_itF4AX-ynQ-a&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&oh=00_AfCOkUuFYS1w5BVdF7UUI0PZirWnZbZex-OSy5Jxwl8V-w&oe=65F778FF"
-                  alt=""
-                />
+                <img src="assets/jannete.jpeg" alt="" />
               </div>
               <div class="detbox">
                 <p class="name dark">Jeanette Harmon</p>
@@ -110,10 +98,7 @@ const Testimonials = () => {
           <div class="div5 eachdiv">
             <div class="userdetails">
               <div class="imgbox">
-                <img
-                  src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/279942861_122873770371917_2348794028491560139_n.jpg?stp=c0.34.206.206a_dst-jpg_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH3pPxr2RUEC33KbCM3tQzhHtkECmq-mpoe2QQKar6amkw3uW-XVQo8xvItX6q0xGD1fsINXXP3gO44HFm8kbtr&_nc_ohc=pzTfH9c7jSgAX8gKOPM&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfBitpdTqQ0TvgFzVEYrJrzN-5lVdWV1qGPIwMTmW706bA&oe=65F6FC61"
-                  alt=""
-                />
+                <img src="assets/jane.jpeg" alt="" />
               </div>
               <div class="detbox">
                 <p class="name">Jane Njeri</p>

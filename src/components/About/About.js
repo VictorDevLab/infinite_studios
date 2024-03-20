@@ -18,10 +18,7 @@ const About = () => {
           </div>
         </div>
         <div className="about_right">
-          <img
-            src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/426739477_377657794998240_1875412676401322565_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEyySF5cy0ePSryyuZEIZtsinXWwi-J7zqKddbCL4nvOhaskvD0ZNbJwgogk5_GXiHAixlUsH81RqZUDsEghWcy&_nc_ohc=or4pI4E5OxwAX9Rxobm&_nc_pt=5&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&oh=00_AfDqmqJWfcKBf-pCFfchazGe8s6F1S0z0c2dk2IS6aYVaw&oe=65F7457A"
-            alt="about"
-          />
+          <img src="assets/aboutimg.jpeg" alt="about" />
         </div>
       </div>
     </div>
