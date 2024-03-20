@@ -21,6 +21,7 @@ const Services = () => {
           <ServiceCard
             number={2}
             image="assets/newborn.jpeg"
+            name={" Newborn shoot"}
             description={
               "Capture the tender moments of your little one's earliest days with our newborn photo shoots."
             }
